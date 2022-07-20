@@ -51,6 +51,154 @@
 
 .all-blogs {
     display: flex;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 
 /*======== main section end */
+/* upcoming all-group blogs area
+ */
+.three-blog {
+    width: 650px;
+    height: 250px;
+    background: black;
+    border-radius: 5px;
+}
+
+.sub-blog {
+    margin-top: 30px;
+}
+
+.content {
+    margin: 20px;
+    background: white;
+    width: 212px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.content a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    background: white;
+}
+
+.content :active {
+    background-color: #DD0000;
+    color: white;
+}
+
+.content:active {
+    background-color: #DD0000;
+    color: white;
+}
+
+/* =====transfar live */
+.transfar {
+    margin-left: 40px;
+}
+
+.sub-transfar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.transfar-live {
+    height: 280px;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px;
+}
+
+.transfar-img img {
+    width: 100%;
+}
+
+.transfar-content {
+    padding: 10px;
+}
+
+.transfar-a a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: black;
+}
+
+.transfar-text h4 {
+    font-size: 16px;
+}
+
+.icon {
+    display: flex;
+}
+
+.massege {
+    margin-left: 20px;
+}
+
+/* ======tab for view all */
+
+
+.view-text {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.view-text a {
+    text-decoration: none;
+    background: #DD0000;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* footer sectiion start */
+.footer {
+    width: 100%;
+    height: 50vh;
+    background: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer h1 {
+    padding: 40px;
+}
+
+hr {
+    border: 1px solid gray;
+}
+
+.footer-list ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-list li {
+    list-style: none;
+    margin: 20px;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.fild {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.footer-icon a {
+    color: white;
+}
