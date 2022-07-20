@@ -47,8 +47,8 @@
     margin-top: 0px;
 }
 
-/* =========header section end */
-/*========= main section atart */
+/* =========header section end ==========*/
+/*========= main section atart============ */
 
 .all-blogs {
     display: flex;
@@ -57,7 +57,6 @@
     margin-top: 300px;
 }
 
-/*======== main section end */
 /* upcoming all-group blogs area
  */
 .three-blog {
@@ -98,7 +97,9 @@
     color: white;
 }
 
-/* =====transfar live */
+/* ======upcoming all-group blogs area end===========
+ */
+/* ===========transfar card start================= */
 .transfar {
     margin-left: 40px;
 }
@@ -145,9 +146,7 @@
     margin-left: 20px;
 }
 
-/* ======tab for view all */
-
-
+/* ======tab for view all start==========*/
 .view-text {
     text-align: center;
     margin-top: 90px;
@@ -162,14 +161,15 @@
     text-align: center;
 }
 
-/* =======view all start====== */
+/* ======tab for view all end============ */
+/* =======view hidden====== */
 .view-text {
     display: none;
 }
 
-/* =======view all end====== */
+/* =======view jidden====== */
 
-/* footer sectiion start */
+/* =======footer sectiion start====== */
 .footer {
     width: 100%;
     height: 80vh;
@@ -217,9 +217,10 @@ hr {
     transform: scale(1.5);
 }
 
+/* ==================footer end===================== */
+/* ========mobile view==========*/
 @media only screen and (max-width: 688px) {
 
-    /* ========mobile view==========*/
     /* ======header view start======== */
     .header-details {
         max-width: 100%;
@@ -230,6 +231,10 @@ hr {
 
     .header-img {
         margin-right: 140px;
+    }
+
+    .header-img img {
+        width: 100%;
     }
 
     /* =======header view end ================*/
@@ -261,8 +266,8 @@ hr {
         background-color: #DD0000;
     }
 
-    /* =========upcoming all-group blogs area */
-    /* =========transfar live area end*/
+    /* =========upcoming all-group blogs area end*/
+    /* =========transfar live area start========*/
     .sub-transfar {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -272,11 +277,12 @@ hr {
         margin-right: 35px;
     }
 
-    /* ============transfar live area end */
+    /* ============transfar live area end ============*/
     .view-all {
         display: none;
     }
 
+    /* ==============footer area start=====================*/
     .footer {
         height: 100%;
     }
@@ -311,6 +317,7 @@ hr {
     }
 }
 
+/* ==============footer area end=====================*/
 /* ======mobile view end ================*/
 /* ============for tablet view ===========*/
 @media only screen and (min-width: 689px) and (max-width: 992px) {
@@ -354,10 +361,6 @@ hr {
     .transfar-live {
         height: 100%;
         margin-right: 40px;
-    }
-
-    .view-text {
-        display: block;
     }
 
     .footer {
