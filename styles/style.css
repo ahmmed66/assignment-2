@@ -1,6 +1,6 @@
 /* ============header section start ======*/
 .header-container {
-    max-width: 900px;
+    max-width: 100%;
     height: 400px;
     margin: 0 auto;
     background-color: black;
@@ -164,7 +164,7 @@
 /* footer sectiion start */
 .footer {
     width: 100%;
-    height: 50vh;
+    height: 80vh;
     background: black;
     color: white;
     text-align: center;
@@ -202,3 +202,96 @@ hr {
 .footer-icon a {
     color: white;
 }
+
+@media only screen and (max-width: 688px) {
+
+    /* ========mobile view==========*/
+    /* ======header view start======== */
+    .header-details {
+        max-width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        background: black;
+    }
+
+    .header-img {
+        margin-right: 140px;
+    }
+
+    /* =======header view end ================*/
+    /* =========upcoming all-group blogs area */
+    .all-blogs {
+        flex-direction: column;
+        margin-top: 450px;
+        width: 100%;
+    }
+
+    .three-blog {
+        background: none;
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .sub-blog {
+        margin-top: 20px;
+        font-size: 20p;
+    }
+
+    .content {
+        margin-left: 60px;
+        border: 1px solid gray;
+    }
+
+    .content:active {
+        background-color: #DD0000;
+    }
+
+    /* =========upcoming all-group blogs area */
+    /* =========transfar live area end*/
+    .sub-transfar {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .transfar-live {
+        height: 100%;
+        margin-right: 35px;
+    }
+
+    /* ============transfar live area end */
+    .view-all {
+        display: none;
+    }
+
+    .footer {
+        height: 100%;
+    }
+
+    .footer h1 {
+        margin-left: 25px;
+    }
+
+    .footer-icon {
+        margin-left: 30px;
+    }
+
+    .footer-list ul {
+        flex-direction: column;
+        background: black;
+    }
+
+    .fa-facebook {
+        color: dodgerblue;
+    }
+
+    .fa-twitter {
+        color: skyblue;
+    }
+
+    .fa-youtube {
+        color: red;
+    }
+}
+
+/* ======mobile view end ================*/
+@media only screen and (min-width: 689px) and (max-width:) {}
