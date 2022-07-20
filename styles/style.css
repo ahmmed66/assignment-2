@@ -1,0 +1,56 @@
+/* ============header section start ======*/
+.header-container {
+    max-width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.header-details {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+    width: 50%;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+.header-text h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.watch-live {
+    margin-top: 30px;
+}
+
+.watch-live a {
+    background: #DD0000;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'popins';
+    border-radius: 5px;
+    ;
+}
+
+.header-img {
+    width: 50%;
+    margin-top: 60px;
+}
+
+/* =========header section end */
+/*========= main section atart */
+
+.all-blogs {
+    display: flex;
+}
+
+/*======== main section end */
